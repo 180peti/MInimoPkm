@@ -1,3 +1,6 @@
+import edu.upc.dsa.EtakemonManagerImpl;
+import edu.upc.dsa.Objeto;
+import edu.upc.dsa.Usuarios;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

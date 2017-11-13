@@ -1,3 +1,4 @@
+package edu.upc.dsa;
 
 import java.util.HashMap;
 import java.util.List;

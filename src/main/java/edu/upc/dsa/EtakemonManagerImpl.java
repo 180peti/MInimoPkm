@@ -1,7 +1,5 @@
+package edu.upc.dsa;
 
-import sun.rmi.runtime.Log;
-
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Logger;
@@ -9,7 +7,7 @@ import java.util.logging.Logger;
 public class EtakemonManagerImpl implements EtakemonManager {
 
     HashMap<String,Usuarios> users;
-    static EtakemonManagerImpl instance;
+    private static EtakemonManagerImpl instance;
     final static Logger log=Logger.getLogger(EtakemonManagerImpl.class.getName());
 
     public EtakemonManagerImpl()
